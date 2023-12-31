@@ -1,0 +1,84 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background: url(https://as2.ftcdn.net/v2/jpg/05/21/47/11/1000_F_521471118_VfHuJrNBftbYaeMpXZ2RVL5q8YoG48TV.jpg);
+    position: sticky;
+    color: white;
+    top: 0px;
+}
+h1{
+    text-align: center;
+    padding: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    transition: transform 0.9s;
+}
+h1:hover{
+    transform: scale(1.5);
+}
+body{
+    background: linear-gradient(black,#08001f,black);
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.button{
+    font-family: "Berkshire_Swash variant0", Tofu;
+    transition: transform 0.3s;
+
+}
+.button:hover{
+    transform: scale(1.1);
+}
+
+.c{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.d{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+img{
+    height: 300px;
+    width: 300px;
+    border: 7px solid white;
+    border-radius: 20px;
+    transition: transform 0.7s;
+}
+img:hover{
+    transform: scale(1.2);
+}
+.clock{
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    display: flex;
+    justify-content: right;
+}
+.clock:hover{
+    background: black;
+}
+footer{
+    background: url(https://wallpaperbat.com/img/101147-lavender-field-wallpaper-hd.jpg);
+    color: black;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+}
+li{
+    display: inline;
+    padding: 50px;
+    margin: 50px;
+    font-style: italic;
+    font-weight: 800;
+    font-size: large;
+    text-align: end;
+    text-align: right;
+}
